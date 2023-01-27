@@ -50,9 +50,5 @@ alert(num);
 //Задание 6
 
 for (let dayNumber = 5; dayNumber <= 31; dayNumber += 7) {
-    if (dayNumber % 5 == 0) {
-        console.log(`Сегодня пятница, ${dayNumber} число. Необходимо подготовить отчет.`);
-
-        continue;
-    }
+    console.log(`Сегодня пятница, ${dayNumber} число. Необходимо подготовить отчет.`);
 }
